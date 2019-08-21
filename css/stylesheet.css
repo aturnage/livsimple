@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(240, 240, 240, 1);
+}
+.border{
+  border: 5px solid red;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+#logoImg {
+  display: block;
+  max-height: 200px;
+  margin: 0 auto;
+}
+#tagline {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color:  rgba(236, 182, 92, 1);
+    font-size: 20px;
+    margin: 0;
+}
+.header > li{
+  color: rgba(20, 19, 19, 1);
+}
