@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cousine|Raleway&display=swap');
 
 body, html {
   margin: 0;
@@ -26,12 +26,22 @@ body, html {
     font-size: 20px;
     margin: 0;
 }
+.header, .footer{
+  text-align: center;
+  margin: 30px;
+}
 .header > li{
   color: rgba(20, 19, 19, 1);
+  list-style-type: none;
+  display: inline;
 }
 .skillsList {
   text-align: center;
-  list-style: none
+  list-style: none;
+  font-family: 'Cousine', monospace;
+}
+.titleFont {
+  font-family: 'Cousine', monospace;
 }
 .descriptionTitle, .descriptionOne, .descriptionTwo, .descriptionFinal, .skillsList {
   font-family: 'Manjari', sans-serif;
@@ -43,4 +53,8 @@ body, html {
 .descriptionTitle {
   font-size: 20px;
   margin: 50px 0px 0px 0px;
+}
+.footerPic{
+  height: 40px;
+  padding: 20px;
 }
