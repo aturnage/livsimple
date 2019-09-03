@@ -4,7 +4,7 @@
 body, html {
   margin: 0;
   padding: 0;
-  background-color: rgba(240, 240, 240, 1);
+  background-color: rgba(255,253,247, 1);
 }
 .border{
   border: 5px solid red;
@@ -16,8 +16,8 @@ body, html {
 }
 #logoImg {
   display: block;
-  max-height: 200px;
-  margin: 0 auto;
+  max-height: 75px;
+  margin: 50px auto;
 }
 #tagline {
     font-family: 'Oswald', sans-serif;
@@ -25,6 +25,11 @@ body, html {
     color:  rgba(236, 182, 92, 1);
     font-size: 20px;
     margin: 0;
+}
+.mainPic{
+  display:block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 .header, .footer{
   text-align: center;
