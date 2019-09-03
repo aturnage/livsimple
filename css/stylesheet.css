@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
 
 body, html {
   margin: 0;
@@ -31,4 +32,15 @@ body, html {
 .skillsList {
   text-align: center;
   list-style: none
+}
+.descriptionTitle, .descriptionOne, .descriptionTwo, .descriptionFinal, .skillsList {
+  font-family: 'Manjari', sans-serif;
+}
+.descriptionTwo, .descriptionFinal, .descriptionTitle{
+  margin: 20px;
+  text-align: center;
+}
+.descriptionTitle {
+  font-size: 20px;
+  margin: 50px 0px 0px 0px;
 }
