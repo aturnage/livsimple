@@ -84,3 +84,32 @@ body, html {
   height: 40px;
   padding: 20px;
 }
+
+/* Image rows */
+* {
+  box-sizing: border-box;
+}
+.row {
+  padding: 0 30px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column > img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.column > img:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  width: 600px;
+}
