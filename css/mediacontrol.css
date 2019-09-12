@@ -1,7 +1,7 @@
 .topLeft{
     position: absolute;
-    top: 150px;
-    left: 80px;
+    top: 25%;
+    left: 20%;
   }
   .phrase {
     font-family: 'Zilla Slab Highlight', cursive;
@@ -18,4 +18,9 @@
   }
   .box {
     font-size: 85px;
+  }
+  .livDescription {
+    text-align: center;
+    padding: 5% 0;
+    font-family: 'Rubik Mono One', sans-serif;
   }

@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cousine|Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Jaldi&display=swap');
 
 body, html {
   margin: 0;
   padding: 0;
-  background-color: rgba(255,253,247, 1);
+  background-color: orange;
 }
 .border{
   border: 5px solid red;
@@ -24,24 +26,28 @@ body, html {
   width: 100%;
   height: auto
 }
-.header > li{
+.header{
+  height: 100px;
+  text-align: center;
+  /* margin: 30px; */
+  background-color: white;
+}
+.header > li {
   color: rgba(20, 19, 19, 1);
   list-style-type: none;
   display: inline;
   padding: 0 1%;
 }
 #logoImg {
-  max-height:30px;
-  margin: 0px auto;
+  max-height:50px;
+  margin: auto 0;
   text-shadow: 2px 2px 4px #000000;
 }
 .mainDescription {
-    background-color: rgba(48, 48, 38, 1);
-    color: white;
+    color: orange;
 }
-.livDescription {
-  text-align: center;
-  padding: 5% 0;
+.bizDescrip {
+  font-family: 'Jaldi', sans-serif;
 }
 .learnMore {
   border: 5px solid white;
@@ -56,10 +62,6 @@ body, html {
 .mainPic > img {
   display:block;
   margin: 0 auto;
-}
-.header{
-  text-align: center;
-  margin: 30px;
 }
 .skillsList {
   text-align: center;
