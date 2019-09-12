@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cousine|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight&display=swap');
 
 body, html {
   margin: 0;
@@ -23,12 +24,18 @@ body, html {
   width: 100%;
   height: auto
 }
-#logoImg {
-  display: block;
-  max-height: 75px;
-  margin: 50px auto;
+.header > li{
+  color: rgba(20, 19, 19, 1);
+  list-style-type: none;
+  display: inline;
+  padding: 0 1%;
 }
-.mainDescription{
+#logoImg {
+  max-height:30px;
+  margin: 0px auto;
+  text-shadow: 2px 2px 4px #000000;
+}
+.mainDescription {
     background-color: rgba(48, 48, 38, 1);
     color: white;
 }
@@ -36,10 +43,9 @@ body, html {
   text-align: center;
   padding: 5% 0;
 }
-.learnMore{
+.learnMore {
   border: 5px solid white;
 }
-
 #tagline {
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -54,12 +60,6 @@ body, html {
 .header{
   text-align: center;
   margin: 30px;
-}
-.header > li{
-  color: rgba(20, 19, 19, 1);
-  list-style-type: none;
-  display: inline;
-  padding: 0 5%;
 }
 .skillsList {
   text-align: center;

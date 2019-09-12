@@ -1,0 +1,21 @@
+.topLeft{
+    position: absolute;
+    top: 150px;
+    left: 80px;
+  }
+  .phrase {
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: white;
+  }
+  .liv {
+    font-size: 200px;
+  }
+  .outside {
+    font-size: 90px;
+  }
+  .the {
+    font-size: 45px;
+  }
+  .box {
+    font-size: 85px;
+  }
